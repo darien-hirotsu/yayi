@@ -1,5 +1,5 @@
-# yayi
-## Overview: yet another yaml introduction
+# yayi: yet another yaml introduction
+## Overview
 This project is for users who are new to YAML and are looking to build some basic knowledge to start producing YAML files. The goal is to start leveraging cool tools such as [Ansible](http://docs.ansible.com/ansible/index.html) , [Salt](https://docs.saltstack.com/en/latest/), [Heat](https://wiki.openstack.org/wiki/Heat), and many more without having to learn the full suite of YAML syntax. This project highlights the basics to get up and running quickly!
 
 The project includes some basic YAML files to illustrate the basic data structures. The YAML examples are accompanied by a simple Python script that allows the user to see how the relevant YAML is serialized to Python data types. Some basic Python knowledge will definitely help. :)
