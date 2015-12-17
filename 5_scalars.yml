@@ -1,0 +1,6 @@
+# YAML documents start with three dashes
+---
+   # Basic scalar
+  >
+  Here is a basic scalar.
+    You can wrap it to another line if needed.

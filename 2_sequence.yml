@@ -1,0 +1,9 @@
+# Remember that YAML documents start with three dashes
+---
+   # Basic sequence
+   - value1
+   - value2
+   - value3
+   - value4
+   - value5
+   # The above will become a single 5 member list in Python

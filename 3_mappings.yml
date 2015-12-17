@@ -1,0 +1,35 @@
+# Did you forget taht YAML documents start with three dashes?
+---
+   # First mapping of mappings
+   router1:
+     ip: 192.168.1.1
+     hostname: router1
+     serial_number: ZYX
+   router2:
+     ip: 192.168.1.2
+     hostname: router2
+     serial_number: WVU
+   router3:
+     ip: 192.168.1.3
+     hostname: router3
+     serial_number: TSR
+   # The above will become a single 3 member dictionary in Python
+   # The key for each dictionary element will return another dictionary
+
+# Here is a second YAML document within the same file
+---
+   # Second mapping of mappings
+   switch1:
+     ip: 192.168.2.1
+     hostname: switch1
+     serial_number: ABC
+   switch2:
+     ip: 192.168.2.2
+     hostname: switch2
+     serial_number: DEF
+   switch3:
+     ip: 192.168.2.3
+     hostname: switch3
+     serial_number: GHI
+   # The above will become a single 3 member dictionary in Python
+   # The key for each dictionary element will return another dictionary

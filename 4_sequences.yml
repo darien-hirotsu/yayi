@@ -1,0 +1,35 @@
+# Remember that YAML documents start with three dashes
+---
+   # Mapping of sequences
+   router1:
+     - 192.168.1.1
+     - router1
+     - ZYX
+   router2:
+     - 192.168.1.2
+     - router2
+     - WVU
+   router3:
+     - 192.168.1.3
+     - router3
+     - TSR
+   # The above will become a single 3 member dictionary in Python
+   # Each value of the dictionary is a Python list
+
+# Here is another YAML document
+---
+   # Mapping of sequences
+   switch1:
+     - 192.168.2.1
+     - switch1
+     - ABC
+   switch2:
+     - 192.168.2.2
+     - switch2
+     - DEF
+   switch3:
+     - 192.168.2.3
+     - switch3
+     - GHI
+   # The above will become a single 3 member dictionary in Python
+   # Each value of the dictionary is a Python list

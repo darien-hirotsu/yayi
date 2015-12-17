@@ -1,0 +1,8 @@
+# YAML documents start with three dashes
+---
+   # Basic mapping
+   key1: value1
+   key2: value2
+   key3: value3
+   key4: value4
+   # The above will become a single 4 member dictionary in Python
