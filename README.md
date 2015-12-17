@@ -27,4 +27,4 @@ Note that most tools (such as Ansible and the others previously mentioned) only 
 * python show_me_the_yaml.py 5_scalars.yml
 
 ## Useful References
-* [YAML Specification](https://wiki.openstack.org/wiki/Heat)#
+* [YAML Specification](https://wiki.openstack.org/wiki/Heat)
