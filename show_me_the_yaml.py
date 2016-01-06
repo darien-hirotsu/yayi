@@ -18,7 +18,7 @@ def get_yaml(file_name=None):
         return yaml.load_all(open(file_name))
     except IOError:
         print('Oops! Check the name of the YAML file passed as an argument.')
-        print('The file passed during execution does not appe to exist')
+        print('The file passed during execution does not appear to exist')
         sys.exit()
 
 
