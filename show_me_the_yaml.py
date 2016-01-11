@@ -22,7 +22,6 @@ def get_yaml(file_name=None):
         sys.exit()
 
 
-
 def main():
     """Main method to iterate over data structures imported from YAML files.
 
