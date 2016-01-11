@@ -8,7 +8,7 @@ import yaml
 def get_yaml(file_name=None):
     """Basic function that returns a Python data structure from a YAML file.
 
-    Parameters: None
+    Parameters: File name of YAML file
     """
 
     if file_name is None:
